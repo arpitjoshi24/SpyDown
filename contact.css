@@ -1,0 +1,23 @@
+.design{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translatex(-100%);
+    transition: all 1.0s;
+  }
+  
+  .character{
+      opacity: 0;
+      filter: blur(5px);
+      transform: translatey(50%);
+      transition: all 1.0s;
+    }
+  
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  
+  
+  
+  
